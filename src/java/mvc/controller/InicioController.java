@@ -40,5 +40,10 @@ public class InicioController {
     public String quiz(){
         return "/quiz/quiz-index";
     }
+    
+    @RequestMapping("/adm")
+    public String admin(){
+        return "/admin/admin-index";
+    }
    
 }
